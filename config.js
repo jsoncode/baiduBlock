@@ -4,3 +4,8 @@ www.baidu.com$[tpl="right_toplist"]
 www.baidu.com$[class="c-gray c-feedback"]
 www.baidu.com$[data-click*="vLevel"]
 `;
+
+var lang = `
+developer.mozilla.org$en-US$zh-CN
+msdn.microsoft.com$en-us$zh-cn
+`;
