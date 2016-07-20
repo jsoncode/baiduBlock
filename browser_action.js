@@ -2,8 +2,8 @@ var lists = str.split('\n').filter(function(v) {
     if (v) return true
 });
 
+var local = location.href;
 function clear(lists) {
-    var local = location.href;
     for (var a = 0, list; list = lists[a++];) {
         var sub = list.split('$');
         if (new RegExp(sub[0]).test(local)) {
